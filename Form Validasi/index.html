@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <html>
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Form Pendaftaran</title>
+      <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+      <div class="container">
+        <form id="registrationForm" onsubmit="return validateForm()">
+          <label for="nama">Nama Lengkap:</label>
+          <input type="text" id="nama" name="nama" />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" />
+
+          <label for="alamat">Alamat:</label>
+          <textarea id="alamat" name="alamat" rows="5"></textarea>
+
+          <input type="submit" value="Daftar" />
+        </form>
+      </div>
+      <script src="java.js"></script>
+    </body>
+  </html>
+</html>
